@@ -12,3 +12,8 @@ password : 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
 
 # ---> for pull
 git clone https://github.com/yulie9009/webhost.git
+
+# --> syncronize
+git fetch origin
+git reset --hard origin/master
+git clean -f -d
