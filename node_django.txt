@@ -1,0 +1,7 @@
+pipenv install django
+
+pipenv shell
+django-admin startproject webhost .
+python manage.py runserver 80
+
+python manage.py startapp about
