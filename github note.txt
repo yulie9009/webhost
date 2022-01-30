@@ -1,0 +1,14 @@
+# ---> for push
+
+git init
+git add .
+git status
+git commit -m "up"
+git remote add origin https://github.com/yulie9009/webhost.git
+git push -u origin master
+
+user : yulie9009
+password : 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
+
+# ---> for pull
+git clone https://github.com/yulie9009/webhost.git
